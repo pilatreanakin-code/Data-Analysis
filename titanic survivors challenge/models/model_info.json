@@ -1,0 +1,41 @@
+{
+  "model": "RandomForestClassifier",
+  "parameters": {
+    "n_estimators": 200,
+    "max_depth": 6,
+    "random_state": 42
+  },
+  "cv_accuracy_mean": 0.8294,
+  "cv_accuracy_std": 0.0191,
+  "n_features": 28,
+  "feature_importances": {
+    "Title_Mr": 0.1955,
+    "Sex_male": 0.18665,
+    "Fare": 0.08607,
+    "Pclass": 0.08137,
+    "Age": 0.06606,
+    "Title_Mrs": 0.06365,
+    "Title_Miss": 0.05965,
+    "FamilySize": 0.05238,
+    "Deck_U": 0.04817,
+    "SibSp": 0.03252,
+    "Parch": 0.01762,
+    "FareBin_Q4": 0.01662,
+    "AgeBin_Adult": 0.01098,
+    "Embarked_S": 0.01074,
+    "Deck_E": 0.01073,
+    "IsAlone": 0.00875,
+    "FareBin_Q3": 0.00746,
+    "Title_Rare": 0.0074,
+    "FareBin_Q2": 0.00718,
+    "Deck_B": 0.00639,
+    "Embarked_Q": 0.00614,
+    "Deck_D": 0.00552,
+    "Deck_C": 0.00424,
+    "AgeBin_Senior": 0.00322,
+    "AgeBin_Teen": 0.00298,
+    "Deck_F": 0.00132,
+    "Deck_G": 0.00066,
+    "Deck_T": 5e-05
+  }
+}
